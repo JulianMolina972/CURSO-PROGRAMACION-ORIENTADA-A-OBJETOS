@@ -1,6 +1,6 @@
 from car import Car 
 from account import Account 
-
+from uberX import UberX
 
 
 def run():
@@ -9,6 +9,9 @@ def run():
     print(vars(car))
     print(vars(car.driver))
     
+    uberX = UberX("AWS293", Account("Andres Murcia", "AND21"), "Ford", "Raptor")
+    print(vars(uberX))
+    print(vars(uberX.driver))
     # car = Car()
     # car.license = "AWS293"
     # car.driver = "Andres Murcia"
