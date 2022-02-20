@@ -1,4 +1,4 @@
-class Account {
+export default class Account {
     constructor(id,name,document,email,password){
         this.id = id;
         this.name = name;

@@ -11,6 +11,7 @@ def run():
     print(vars(car.driver))
     
     uberX = UberX("AWS293", Account("Andres Murcia", "AND21","sda", "asdsa", "sada"), "Ford", "Raptor")
+    uberX.passengers = 4
     print(vars(uberX))
     print(vars(uberX.driver))
     
